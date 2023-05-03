@@ -1,0 +1,36 @@
+.navbar{
+  background-color: #272727;
+  padding: 1em;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  a{
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+  }
+  .pages{
+    flex: 1;
+  }
+  .cartLink{
+    position: relative;
+    cursor: pointer;
+    margin-right: 1em;
+  }
+  .itemNumber{
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    font-weight: bold;
+    top: -6px;
+    right: -12px;
+    background-color: lightcoral;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
